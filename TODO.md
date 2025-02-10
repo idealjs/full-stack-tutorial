@@ -1,6 +1,9 @@
 # 使用 ssh 的方式，克隆代码
 
 1. 创建公钥 私钥
+
+参考 https://gist.github.com/yisibl/8019693
+
 `~/.ssh/some_key`
 `~/.ssh/some_key_pub`
 
