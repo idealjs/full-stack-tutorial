@@ -18,7 +18,15 @@ Host github.com
     Port 443
     User git
     IdentityFile ~/.ssh/some_key
+    
 ```
+其中的`some_key`是对应的公钥名称
+
+4.检查配置文件是否完成
+
+`ssh -T git@github.com`                           
+配置成功如下图所示                                  
+![配置成功图片](./finsh.png)
 
 # 运行本地项目
 
@@ -27,6 +35,7 @@ Host github.com
 ```shell
 git clone git@github.com:idealjs/full-stack-tutorial.git
 ```
+![克隆完成](./clone.png)
 
 ```shell
 cd full-stack-tutorial
