@@ -1,22 +1,39 @@
-## 如何处理vscode安装插件异常
+---
+sidebar_position: 1
+---
 
-### 1. 检查网络是否异常，在浏览器中输入以下网址，看是否能访问，若能则无网络问题
-`https://marketplace.visualstudio.com`       
+# 如何处理vscode安装插件异常
+让我们通过以下步骤来解决插件安装失败
 
-![网络无异常](./marketplace.png)      
+## 1. 检查网络是否异常
+在浏览器中输入以下网址，看是否能访问，若能则不存在网络问题
+```
+https://marketplace.visualstudio.com
+```
+如果一切正常，您应该在`https://marketplace.visualstudio.com`有一个Extensions for Visual Studio Code的页面。
 
-### 2. 查看是否出现第一次启动调试功能时，vscode会弹出防火墙阻止
-![防火墙成功阻止](./code.png)
+![vscode扩展页面](./marketplace.png)
 
-### 3. 设置代理
-1.打开vscode                               
-2.在其左下角找到齿轮状(Manage)点击找到Settings  
-3.找到右上角的OpenSettings(Json)添加以下代理                      
-`"http.proxy": "http://127.0.0.1:7897",`                       
-`"https.proxy": "http://127.0.0.1:7897",`                      
-`"http.proxyAuthorization": null,`                         
-`"http.proxyStrictSSL": false`
+## 2. 防火墙阻止
+当我们第一次启动调试功能的时候，正常情况vscode会弹出防火墙阻止的界面
 
-### 4. 若以上方法都不行则查看clash是否配置完成
+![防火墙](./code.png)
 
-### 5. 安装插件完成后，将代理配置就可以去掉了
+## 3. 设置代理
+![设置图片](./setting.png)
+
+![json图片](./json.png)
+
+在`setting.json`中添加以下代理
+```
+  "http.proxy": "http://127.0.0.1:7897",
+  "https.proxy": "http://127.0.0.1:7897",
+  "http.proxyAuthorization": null,
+  "http.proxyStrictSSL": false
+```
+
+## 4. clash配置
+如果以上步骤都解决不了，需要查看以下`clash`的配置是否完成
+
+## 5. 配置恢复
+当需要安装的插件安装完成后，就可以上面的代理配置给注释了
