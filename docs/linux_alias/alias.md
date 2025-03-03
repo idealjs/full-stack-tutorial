@@ -7,3 +7,4 @@
 `alias ev='3e3e3e...`                                          
 ## 3. 临时取消别名
 `unalias ev=alias ev='3e3e3e...`
+
