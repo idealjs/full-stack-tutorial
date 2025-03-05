@@ -40,7 +40,7 @@ model User {
 #### 2.2 配置`.env`文件
 打开`.env`文件，配置PostgreSQL数据库连接字符串。例如
 ```
-DATABASE_URL="postgresql://alin.hu:123456@localhost:5432/mydatabase"
+DATABASE_URL="postgresql://postgresql:123456@localhost:5432/mydatabase"
 ```
 
 ### 3. 数据库migration
@@ -49,7 +49,7 @@ DATABASE_URL="postgresql://alin.hu:123456@localhost:5432/mydatabase"
 npx prisma migrate dev --name init
 ```
 
-### 4. 使用Docker启动数据库
+### 4. [使用Docker启动数据库](http://localhost:3000/full-stack-tutorial/docs/start_docker_update)
 
 ### 5. 使用Prisma Studio验证数据
 #### 5.1 启动Prisma Studio
