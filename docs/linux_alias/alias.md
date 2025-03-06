@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Alias命令的使用
+# Linux alias
 在Linux中，`alias`是一个用于创建命令别名的内置命令；通过`alias`，可以把常用的命令或命令组合设置为简短的别名，从而简化操作。
 
 ## 使用方法
