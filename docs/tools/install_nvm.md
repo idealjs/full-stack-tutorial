@@ -1,9 +1,9 @@
-# 安装NVM以及Node.js教程
+# nvm
 - Node.js是用于服务器端JavaScript运行，适合高性能、实时应用
 - NVM用于管理多个Node.js版本，便于在不同项目间切换
 
 ## 先决条件
-1. 确保安装了Ubantu
+1. 确保安装了Ubuntu
 
 ## 安装NVM
 ### 1. 安装cURL
