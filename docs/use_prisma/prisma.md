@@ -10,6 +10,10 @@ sidebar_position: 1
 2. Prisma Postgres数据库
 3. Next.js项目
 4. 已安装Docker
+5. 确认已启动数据库
+
+>**提示**                                                                                                                                    
+如果不知道怎么启动数据库，可以参考使用 [Docker启动数据库](http://localhost:3000/full-stack-tutorial/docs/docker/start)文档
 
 ## 项目初始化
 - 打开Next.js项目
@@ -40,7 +44,7 @@ model User {
 #### 2.2 配置`.env`文件
 打开`.env`文件，配置PostgreSQL数据库连接字符串。例如
 ```
-DATABASE_URL="postgresql://postgresql:123456@localhost:5432/mydatabase"
+DATABASE_URL="postgresql://postgres:example@localhost:5432/postgres"
 ```
 
 ### 3. 数据库migration
@@ -49,22 +53,20 @@ DATABASE_URL="postgresql://postgresql:123456@localhost:5432/mydatabase"
 npx prisma migrate dev --name init
 ```
 
-### 4. [使用Docker启动数据库](http://localhost:3000/full-stack-tutorial/docs/start_docker_update)
-
-### 5. 使用Prisma Studio验证数据
-#### 5.1 启动Prisma Studio
+### 4. 使用Prisma Studio验证数据
+#### 4.1 启动Prisma Studio
 运行以下命令启动`Prisma Studio`:
 ```
 npx prisma studio
 ```
-#### 5.2 验证数据
+#### 4.2 验证数据
 在`Prisma Studio`中，可以查看`User`表的数据，通过添加、编辑或修改记录，验证表是否正确
 
 ![添加记录](./verify1.png)
 ![添加成功](./verify2.png)
 
-### 6. 在Next.js中使用Prisma
-#### 6.1 设置Prisma客户端
+### 5. 在Next.js中使用Prisma
+#### 5.1 设置Prisma客户端
 运行以下命令，创建一个新目录并在其添加一个新文件`lib/prisma.ts`
 ```
 mkdir -p lib && touch lib/prisma.ts
