@@ -2,12 +2,15 @@
 sidebar_position: 1
 ---
 
-# docker的安装与使用
+# docker的安装与验证
 docker是一种开源平台，用于开发、部署和运行应用程序。
 
 ## 先决条件
 1. 确保您的系统是windows专业版
 2. 已安装了wsl2 
+
+>**提示**                                                                                                                                  
+如果没有安装wsl2，可以参考[安装wsl文档](https://learn.microsoft.com/zh-cn/windows/wsl/install)
 
 ##  docker的安装
 ### 1. 开启windows功能
@@ -23,9 +26,8 @@ docker是一种开源平台，用于开发、部署和运行应用程序。
 https://docs.docker.com/desktop/install/windows-install/
 ```
 
-## docker的使用
-### 1. 配置镜像
-进入docker后，开始配置镜像
+## 配置Docker镜像
+安装docker后，进入docker，开始配置镜像
 
 ![设置页面](./6.png)
 
@@ -36,21 +38,11 @@ https://docs.docker.com/desktop/install/windows-install/
 "registry-mirrors":["https://docker.m.daocloud.io","https://docker.1panel.live"]
 ```
  
-### 2. 拉取镜像
- 这里我在wsl命令行中拉取的postgres镜像，运行以下命令：`pull`              
+ ## 验证Docker
+ 运行以下命令，测试Docker是否正确安装并运行
  ```
- sudo docker pull postgres
+ docker run hello-world
  ```
+ 当输出`Hello from Docker`命令时，表明Docker安装正确
+ ![验证Docker](./8.png)
 
-### 3. 创建并启动容器
-创建包含以下内容的文件：`docker-compose.yml`     
-
-![内容](./3.png)
-
-### 4. 验证容器启动
-运行以下命令`ps`，当STATUS出现`up`的时候，容器就表示启动成功                   
-```
-docker ps
-```
-
-  ![运行容器](./5.png)
