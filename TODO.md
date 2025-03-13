@@ -1,45 +1,42 @@
-# 使用 ssh 的方式，克隆代码
+# 全栈工程师路线图
 
-1. 创建公钥 私钥
-
-参考 https://gist.github.com/yisibl/8019693
-
-`~/.ssh/some_key`
-`~/.ssh/some_key_pub`
-
-2. 添加公钥到 git 平台
-3. 配置本地 ssh config 文件
+## 前端
 
 
-文件位置 `~/.ssh/config`
-```ssh-config
-Host github.com
-    HostName ssh.github.com
-    Port 443
-    User git
-    IdentityFile ~/.ssh/some_key
-```
+### TODO
 
-# 运行本地项目
+- nextjs 前端
+- react
 
-克隆当前项目
+1. 了解访问 html 网页时，会发生什么（一篇文档，标题任意）
+    - 按 用户 -> 浏览器 -> 网络 -> 服务器 的顺序思路编写
+    - 本地运行 http-server ，模拟这个过程
 
-```shell
-git clone git@github.com:idealjs/full-stack-tutorial.git
-```
+2. 了解 html 变大以后，如何拆分（一篇文档，标题任意）
+    - 了解打包 vite 工具的工作方式
+    - 使用 vite 创建基础的 vanilla ts 的工程
+    
+3. 在 vite vanilla ts 的工程基础上编写前端 todo list（一篇文档，标题任意）
+    - 感受原生 html 编写时的繁杂点。
 
-```shell
-cd full-stack-tutorial
-```
+4. 了解 react 的工作方式（一篇文档，标题任意）
+    - react 的基础工作方式
+    - 这种方式如何解决的原生编程的繁杂点
 
-安装依赖
+### 工具链
 
-```shell
-yarn
-```
+- vite
+- rollup
+- webpack
 
-启动项目
-> package.json 中查看 scripts 字段
-```shell
-yarn start
-```
+## 后端
+
+- nextjs 后端
+- expressjs
+- koa
+- fastify
+
+## 运维
+
+- docker
+- k8s
