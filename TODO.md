@@ -28,6 +28,11 @@
 5. 学习 nextjs 前端
     - 迁移 react todolist 到 nextjs ts 工程（注意客户端组件，服务端组件的区别）
 
+
+6. 学习 vitest
+    - 在 vite 工程中添加 vitest
+    - 对 todolist 编写单元测试
+
 ### 工具链
 
 - vite
