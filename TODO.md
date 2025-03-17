@@ -22,7 +22,11 @@
 4. 了解 react 的工作方式（一篇文档，标题任意）
     - 使用 vite 创建 react ts 工程
     - react 的基础工作方式
+    - 迁移 todolist 到 react ts 工程
     - 这种方式如何解决的原生编程的繁杂点
+
+5. 学习 nextjs 前端
+    - 迁移 react todolist 到 nextjs ts 工程（注意客户端组件，服务端组件的区别）
 
 ### 工具链
 
