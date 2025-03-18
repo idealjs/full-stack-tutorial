@@ -2,27 +2,90 @@
 sidebar_position: 1
 ---
 
-# 访问HTML网页的流程
-通过http-server来模拟，从浏览器、网络、服务器方面来介绍
+# 访问 HTML 网页的流程
+
+我们将通过 `http-server` 来模拟访问 HTML 网页的过程，从浏览器、网络和服务器这几个方面详细介绍。
+
+## 创建index.html
+运行以下命令进行创建`index.html`文件
+```
+touch index.html
+```
+打开`index.html`文件并输入以下内容
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+```
+
+## 安装http-server
+运行以下命令进行安装，其中`-g`代表全局安装
+```
+npm install -g http-server
+```
+
+## 启动http-server
+### 1.进入文件夹
+安装完成并创建好`index.html`文件后，就可以通过以下命令进入包含`index.html`文件的文件夹
+```
+cd ~/test
+```
+### 2.启动服务
+在控制台运行以下命令来启动服务
+```
+http-server
+```
+启动成功后，命令行会输出以下网址
+![网址](./console.png)
+这时，你可以在浏览器中输入 `http://127.0.0.1:8080` 或者`http://localhost:8080` 来访问你的网页
+
+## 无痕模式
+用户可以使用以下快捷键，打开无痕窗口
+```
+Ctrl+Shift+N
+```
+按下`F12`，进入检查
+![无痕模式](./image.png)
 
 ## 先决条件
-- 已安装并启动http-server
+- 你需要已经安装并启动 `http-server`。
 
->**提示**                                                    
-若未安装和启动`http-server`，可以参考[http-server](http://localhost:3000/full-stack-tutorial/docs/html/http-server)文档
+## 浏览器的工作步骤
 
-## 浏览器
-1. 检查本地缓存中是否有跟`localhost`对应的地址，通常浏览器会用`localhost`因为`localhost`映射到`127.0.0.1`
-2. 建立tcp连接，浏览器向`127.0.0.1：8080`发送TCP连接请求，服务端确认客户端并回复，服务端与客户端建立连接
-3. 浏览器向服务器发送GET请求，请求路径为`/`
+### 1. 建立 TCP 连接
+浏览器会向 `127.0.0.1:8080` 发送建立 TCP 连接的请求。服务器收到请求后，会确认客户端的身份，然后向客户端回复消息，从而建立起服务器与客户端之间的连接。
+
+### 2. 发送 GET 请求
+浏览器会向服务器发送一个路径为 `/` 的 GET 请求。
+
 ![请求路径](./get.png)
 
-## 服务器
- 1. 服务器收到请求后，查找`index.js`文件
- ![文件](./index.png)
- 2. 生成HTTP响应
- 3. 服务器将生成的HTTP响应通过TCP连接再发送给浏览器
+## 服务器的工作步骤
+
+### 1. 查找文件
+当服务器接收到浏览器的请求后，就像一位仓库管理员，会在众多文件中查找 `index.html` 文件。
+
+![文件](./index.png)
+
+### 2. 生成 HTTP 响应
+服务器找到文件后，会对其进行处理，将其转换为适合在网络中传输的 HTTP 响应，如同把货物包装好以便运输。
+
+### 3. 发送响应
+服务器会通过之前与浏览器建立的“运输通道”（TCP 连接），将生成的 HTTP 响应发送给浏览器。
 
 ## 渲染页面
- 1. 浏览器接收资源后渲染页面
- 2. 显示给用户
+
+### 1. 接收资源并渲染
+- 浏览器接收到资源后解析HTML、CSS和JavaScript
+- 浏览器根据解析结果构建页面结构
+
+### 2. 显示页面
+页面渲染完成后，就会展示给用户。
