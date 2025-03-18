@@ -7,24 +7,8 @@ sidebar_position: 1
 我们将通过 `http-server` 来模拟访问 HTML 网页的过程，从浏览器、网络和服务器这几个方面详细介绍。
 
 ## 创建index.html
-运行以下命令进行创建`index.html`文件
-```
-touch index.html
-```
-打开`index.html`文件并输入以下内容
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-</body>
-</html>
-```
+1. 对于创建`index.html`文件，可以参考[使用VScode](https://idealjs.github.io/full-stack-tutorial/docs/web/hello_world/use_vscode)文档
+2. 在`index.html`文件输入内容，可以参考[第一个页面(hello world)](https://idealjs.github.io/full-stack-tutorial/docs/web/hello_world/first_page)文档
 
 ## 安装http-server
 运行以下命令进行安装，其中`-g`代表全局安装
