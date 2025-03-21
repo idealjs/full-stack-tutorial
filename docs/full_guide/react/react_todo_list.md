@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 如何使用react+ts编写前端todo list
@@ -9,7 +9,7 @@ sidebar_position: 1
 1. 已创建react ts工程
 
 >**提示**                                                                                                                                    
-若未创建react ts工程，可以参考[使用vite创建react ts工程](http://localhost:3000/full-stack-tutorial/docs/react/react_ts)文档
+若未创建react ts工程，可以参考[使用vite创建react ts工程](https://github.com/idealjs/full-stack-tutorial/blob/main/docs/react/react_ts.md)文档
 
 ## 项目初始化
 打开react ts工程
