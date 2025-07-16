@@ -4,7 +4,7 @@
         <title>全栈工程师教程 Blog</title>
         <link>https://idealjs.github.io/full-stack-tutorial/blog</link>
         <description>全栈工程师教程 Blog</description>
-        <lastBuildDate>Wed, 16 Jul 2025 16:17:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Jul 2025 16:39:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[sapling_transformer 近半月开发自述]]></title>
             <link>https://idealjs.github.io/full-stack-tutorial/blog/cqh963852/sapling_transformer</link>
             <guid>https://idealjs.github.io/full-stack-tutorial/blog/cqh963852/sapling_transformer</guid>
-            <pubDate>Wed, 16 Jul 2025 16:17:26 GMT</pubDate>
+            <pubDate>Wed, 16 Jul 2025 16:39:54 GMT</pubDate>
             <description><![CDATA[为什么做这件事情]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="为什么做这件事情">为什么做这件事情<a href="https://idealjs.github.io/full-stack-tutorial/blog/cqh963852/sapling_transformer#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%81%9A%E8%BF%99%E4%BB%B6%E4%BA%8B%E6%83%85" class="hash-link" aria-label="Direct link to 为什么做这件事情" title="Direct link to 为什么做这件事情">​</a></h2>
 <p>作为一个在前端深耕的工程师，工程效率，代码运行效率一直是我所关注的内容。受 solidjs 与 rust 的影响，我正在考虑是否可以有更<code>"好"</code>的方式来 transfrom jsx/tsx 代码。</p>
