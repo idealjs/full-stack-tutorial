@@ -17,7 +17,7 @@ jobs:
       - name: Build website
         working-directory: ./
         run: |
-          yarn install --frozen-lockfile
+          yarn install --immutable
           yarn build
 
       # Popular action to deploy to GitHub Pages:
