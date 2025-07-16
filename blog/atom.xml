@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://idealjs.github.io/full-stack-tutorial/blog</id>
     <title>全栈工程师教程 Blog</title>
-    <updated>2025-07-16T16:13:02.000Z</updated>
+    <updated>2025-07-16T16:17:26.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://idealjs.github.io/full-stack-tutorial/blog"/>
     <subtitle>全栈工程师教程 Blog</subtitle>
@@ -11,10 +11,11 @@
         <title type="html"><![CDATA[sapling_transformer 近半月开发自述]]></title>
         <id>https://idealjs.github.io/full-stack-tutorial/blog/cqh963852/sapling_transformer</id>
         <link href="https://idealjs.github.io/full-stack-tutorial/blog/cqh963852/sapling_transformer"/>
-        <updated>2025-07-16T16:13:02.000Z</updated>
+        <updated>2025-07-16T16:17:26.000Z</updated>
         <summary type="html"><![CDATA[为什么做这件事情]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="为什么做这件事情">为什么做这件事情<a href="https://idealjs.github.io/full-stack-tutorial/blog/cqh963852/sapling_transformer#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%81%9A%E8%BF%99%E4%BB%B6%E4%BA%8B%E6%83%85" class="hash-link" aria-label="Direct link to 为什么做这件事情" title="Direct link to 为什么做这件事情">​</a></h2>
-<p>作为一个在前端深耕的工程师，工程效率，代码运行效率一直是我所关注的内容。受 solidjs 与 rust 的影响，考虑是否可以有更<code>"好"</code>的方式来 transfrom jsx/tsx 代码。</p>
+<p>作为一个在前端深耕的工程师，工程效率，代码运行效率一直是我所关注的内容。受 solidjs 与 rust 的影响，我正在考虑是否可以有更<code>"好"</code>的方式来 transfrom jsx/tsx 代码。</p>
+<!-- -->
 <p>在这个过程中，对于一些文档性的工作，大部分我交给了ai，也包括这篇文章的 30%。一些编码工作也尝试过让 ai 编写，但是结果通常比较差，所以不做过多描述。</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="发生了什么">发生了什么<a href="https://idealjs.github.io/full-stack-tutorial/blog/cqh963852/sapling_transformer#%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Direct link to 发生了什么" title="Direct link to 发生了什么">​</a></h2>
 <p>过去半个月，sapling_transformer 项目经历了多次重构和技术路线调整。项目之所以发展到当前状态，主要是因为在实际开发过程中，原有方案暴露出一系列问题，促使不得不做出改变。</p>
