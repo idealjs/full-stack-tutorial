@@ -54,6 +54,7 @@ const config = {
             position: "left",
             label: "快速开始",
           },
+          { to: "blog", label: "博客", position: "left" },
           {
             href: "https://github.com/idealjs/full-stack-tutorial",
             label: "GitHub",
