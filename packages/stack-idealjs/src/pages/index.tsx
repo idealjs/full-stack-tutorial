@@ -25,7 +25,7 @@ const HomePageHeader = () => {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="https://github.com/idealjs/full-stack-tutorial/discussions"
+              to="https://github.com/idealjs/stack/discussions"
             >
               参与讨论
             </Link>

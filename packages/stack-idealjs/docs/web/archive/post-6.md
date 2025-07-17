@@ -12,7 +12,7 @@ Web 由 HTML5 + CSS3 + JS 构成。本节将介绍 JS 的 Hello World。
 
 本篇的完整代码，可以在这里找到：
 
-- [examples/post-6/hello.html](https://github.com/idealjs/full-stack-tutorial/blob/main/examples/post-6/hello.html)
+- [examples/post-6/hello.html](https://github.com/idealjs/stack/blob/main/examples/post-6/hello.html)
 
 ## 查看这个网页
 
@@ -40,7 +40,7 @@ Web 由 HTML5 + CSS3 + JS 构成。本节将介绍 JS 的 Hello World。
 </html>
 ```
 
-我们需要关注的是如下代码块，其余部分是 HTML5 的标签，想了解的话，可以查看[HTML5 Hello World](https://idealjs.github.io/full-stack-tutorial/docs/post-4)。
+我们需要关注的是如下代码块，其余部分是 HTML5 的标签，想了解的话，可以查看[HTML5 Hello World](https://idealjs.github.io/stack/docs/post-4)。
 
 ```html
 <script>

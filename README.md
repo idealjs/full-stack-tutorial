@@ -1,4 +1,4 @@
-# [教程访问地址](https://idealjs.github.io/full-stack-tutorial/)
+# [教程访问地址](https://idealjs.github.io/stack/)
 
 # 路线图
 - [ ] 调整结构，更改 [顶部导航栏](#顶部导航栏)

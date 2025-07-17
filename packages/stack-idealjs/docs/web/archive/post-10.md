@@ -10,7 +10,7 @@ sidebar_position: 10
 
 参考上一章
 
-- [传送门](https://idealjs.github.io/full-stack-tutorial/docs/post-8#%E6%9C%AC%E5%9C%B0%E6%9E%84%E5%BB%BA%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
+- [传送门](https://idealjs.github.io/stack/docs/post-8#%E6%9C%AC%E5%9C%B0%E6%9E%84%E5%BB%BA%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
 
 ## 创建一个 React 工程
 

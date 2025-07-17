@@ -10,7 +10,7 @@ sidebar_position: 5
 
 本篇的完整代码，可以在这里找到：
 
-- [examples/post-5/hello.html](https://github.com/idealjs/full-stack-tutorial/blob/main/examples/post-5/hello.html)
+- [examples/post-5/hello.html](https://github.com/idealjs/stack/blob/main/examples/post-5/hello.html)
 
 ## 查看这个网页
 

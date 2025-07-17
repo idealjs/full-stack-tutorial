@@ -87,7 +87,7 @@ const config: Config = {
         },
         { to: "/blog", label: "博客", position: "left" },
         {
-          href: "https://github.com/idealjs/full-stack-tutorial",
+          href: "https://github.com/idealjs/stack",
           label: "GitHub",
           position: "right",
         },
